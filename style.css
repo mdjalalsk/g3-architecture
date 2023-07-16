@@ -1,0 +1,93 @@
+/* common section start  */
+/* work sans font from google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&family=Open+Sans:wght@400;700;800&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+/* shared styles */
+* {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.heading{
+color: #131313;
+font-size: 2.6rem;
+font-weight: 700;
+margin-bottom: 20px;
+
+}
+.description{
+    
+    color: #727272;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 15px; 
+}
+.btn-primary{
+border-radius: 8px;
+background: #FF900E;
+padding: 20px 35px;
+color: #fff;
+border: none;
+}
+/* common section end  */
+
+
+/* header section start  */
+header{
+    background: rgba(255, 144, 14, 0.10);
+    padding: 50px 220px;
+}
+/* nav section start */
+nav{
+    display:flex;
+    justify-content: space-between;
+}
+nav ul {
+    display: flex;
+}
+nav ul li{
+    list-style-type: none;
+    margin-right: 25px;
+font-size: 1.2rem;
+font-weight: 500;
+line-height: 26px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: #424242;
+
+}
+
+/* nav section end */
+
+
+/* banner section start   */
+.banner{
+    margin-top: 80px;
+}
+
+.banner-content{
+max-width: 800px;
+text-align: center;
+margin: 0 auto;
+}
+.banner-title{
+    font-size: 4rem;
+    font-weight: 700;
+    color: #131313;
+}
+
+.banner img {
+    margin-top: 20px;
+    width: 100%;
+}
+/* banner section end   */
+
+/* header section start  */
